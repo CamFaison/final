@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+Cameron Faison
+camfaison32@gmail.com-->
+<!--this connects javascript and html-->
+<!--this connects my html site and css-->
+<!--this code displays the title of the page-->
+<!--this displays the UAT logo-->
+<!-- this displays the header UAT space program and Countdown Timer-->
+<!--this creates the button, and gives it different options for use-->
+<!--this shows what the status of the craps game is after clicing the button-->
+<html>
+
+    <head>
+        <script src="LaunchDataDis.js"></script>
+        <script src="dataLoader-1.js"></script>
+        <script src="code.js"></script>
+       <link href="style.css" rel="stylesheet" type="text/css">
+        <title> 
+       Cameron Faisons UAT Space Page
+        </title>
+        <script>
+            var theTime = new Date();
+            var time_interval = 5000;
+            var last_iteration = 0;
+            var running = true;
+            var index = 0;
+            var timer;
+            var data = getData():
+
+        </script>
+    </head>
+
+    <body>
+        
+       
+        <table>
+            <tr>
+                <td><img src="UATspaceLogo-2.jpg"></td>
+                <td>
+                    <h1>
+                        UAT Space Program
+                    </h1>     
+                </td>
+            </tr>
+        </table> 
+
+         <!--Data table-->
+         <table id="data" border="2" width="70%">
+            <col style="width: 35%">
+            <col style="width: 35%">
+            <thead>
+                <th>
+                    Data type
+                </th>
+                <th>
+                    Reading
+                </th>
+            </thead>
+            <tbody>
+                <!--table entry for seconds-->
+                <tr id="seconds">
+                </tr>
+                <!--table entry for latitude-->
+                <tr id="latitude">
+                </tr>
+                <!--table entry for longitude-->
+                <tr id="longitude">
+                </tr>
+                <!--table entry for gps altitude-->
+                <tr id="gps_altitude">
+                </tr>
+                <!--table entry for bmp altitude-->
+                <tr id="bmp_altitude">
+                </tr>
+                <!--table entry for bmp pressure-->
+                <tr id="bmp_pressure">
+                </tr>
+                <!--table entry for bmp temperature-->
+                <tr id="bmp_temperature">
+                </tr>
+                <!--table entry for dig temperature-->
+                <tr id="dig_temperature">
+                </tr>
+                <!--table entry for css temperature-->
+                <tr id="css_temperature">
+                </tr>
+                <!--table entry for css eC02-->
+                <tr id="css_eC02">
+                </tr>
+                <!--table entry for cssTV0C-->
+                <tr id="css_TV0C">
+                </tr>
+                <!--table entry for UV-->
+                <tr id="UV">
+                </tr>
+                <!--table entry for accelX-->
+                <tr id="accelX">
+                </tr>
+                <!--table entry for accelY-->
+                <tr id="accelY">
+                </tr>
+                <!--table entry for accelZ-->
+                <tr id="accelZ">
+                </tr>
+                <!--table entry for magneticX-->
+                <tr id="magneticX">
+                </tr>
+                <!--table entry for magneticY-->
+                <tr id="magneticY">
+                </tr>
+                <!--table entry for magneticZ-->
+                <tr id="magneticZ">
+                </tr>
+                <!--table entry for gyroX-->
+                <tr id="gyroX">
+                </tr>
+                <!--table entry for gyroY-->
+                <tr id="gyroY">
+                </tr>
+                <!--table entry for gyroZ-->
+                <tr id="gyroZ">
+                </tr>
+               
+ 
+ 
+              </tbody>
+ 
+        </table>
+        <!--button to run the timer-->
+        <br>
+        <button onclick="startFun();" class="button" id="startButton">Start</button>
+        <!--button to stop the timer-->
+        <button onclick="stopFun();" class="button" id="startButton">Stop</button><br>
+        <br>
+        The current time is: <div id="clockTime">Press start to display current time</div>
+
+
+        <h2>PLease try your hand at Craps!</h2>
+ 
+        <div id="crapsStatus">Craps Status</div><br>
+        <button onclick="playCraps();" class="button">Play Craps</button>
+        <br>
+        <br>
+        <h3>Play space station sounds</h3>
+        <h4>Warning, it may get loud</h4>  
+        <button class="lgButton" onclick="playStation();">Play space station sounds</button>    
+        <button class="lgButton" style="margin: 30px;" onclick ="playBowie();">PLay David Bowie</button>
+        <br>
+        <br>
+        <a href="./index.html">Goto Home</a>  <a href="./boards.html">Goto Boards Page</a>  <a href="UATSpace.html">
+
+            Goto UAT Space Page </a>
+      
+
+   
+    </body>
+
+</html>

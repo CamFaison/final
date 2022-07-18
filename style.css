@@ -1,0 +1,35 @@
+body{
+    backround-image: linear-gradient(90deg, white, #2eacd4);
+     font-family: 'Times New Roman', Times, serif;
+}
+
+#paraFunc2{
+    color: rgb(#ff00ff);
+
+} 
+
+
+#countdownStatus{
+    color: red;
+  
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    backround-color: white;
+    border-radius: 15px;
+    border-color: skyblue;
+}
+
+#data{
+    backround-image: linear-gradient
+}
+
+.lgButton{
+    width: 175px;
+    height: 30px;
+    backround-color: white;
+    border-radius: 15px;
+    border-color: skyblue;
+}
